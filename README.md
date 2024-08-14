@@ -29,53 +29,6 @@ El objetivo de **NeuroGame** es combinar ejercicios terapéuticos con elementos 
 - **Make**: Utilizado para automatizar el proceso de compilación mediante un `Makefile`.
 
 ## Instalación
-
-### Prerrequisitos
-
-- **Compilador de C++**: Asegúrate de tener instalado un compilador de C++ (por ejemplo, GCC, Clang, MSVC).
-- **Qt**: Instala el framework Qt desde [el sitio oficial de Qt](https://www.qt.io/download).
-- **Make**: Asegúrate de tener `make` instalado. Puedes instalarlo en tu sistema de la siguiente manera:
-
-    - **En Linux**: `make` suele estar preinstalado, pero si no lo está, puedes instalarlo con tu gestor de paquetes:
-    
-      ```bash
-      sudo apt-get install build-essential
-      ```
-
-    - **En macOS**: Instala Xcode Command Line Tools, que incluye `make`:
-
-      ```bash
-      xcode-select --install
-      ```
-
-    - **En Windows**: Puedes instalar `make` utilizando MinGW o Cygwin.
-
-### Pasos
-
-1. Clona el repositorio:
-
-    ```bash
-    git clone https://github.com/tu-usuario/NeuroGame.git
-    ```
-
-2. Navega al directorio del proyecto:
-
-    ```bash
-    cd NeuroGame
-    ```
-
-3. Compila el proyecto:
-
-    ```bash
-    make
-    ```
-
-4. Ejecuta la aplicación:
-
-    ```bash
-    ./main/bin/neuro_game
-    ```
-
 ## Uso
 
 Después de iniciar el juego, el usuario se encontrará con varios desafíos cognitivos diseñados para mejorar la memoria y las habilidades de resolución de problemas. El juego se adapta en tiempo real según el rendimiento del usuario, lo que lo hace adecuado para diferentes niveles de capacidad cognitiva.
