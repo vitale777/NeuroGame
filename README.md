@@ -26,6 +26,7 @@ El objetivo de **NeuroGame** es combinar ejercicios terapéuticos con elementos 
 
 - **C++**: Lenguaje principal del proyecto.
 - **Qt**: Utilizado para desarrollar la interfaz gráfica de usuario.
+- **Make**: Utilizado para automatizar el proceso de compilación mediante un `Makefile`.
 
 ## Instalación
 
@@ -33,6 +34,21 @@ El objetivo de **NeuroGame** es combinar ejercicios terapéuticos con elementos 
 
 - **Compilador de C++**: Asegúrate de tener instalado un compilador de C++ (por ejemplo, GCC, Clang, MSVC).
 - **Qt**: Instala el framework Qt desde [el sitio oficial de Qt](https://www.qt.io/download).
+- **Make**: Asegúrate de tener `make` instalado. Puedes instalarlo en tu sistema de la siguiente manera:
+
+    - **En Linux**: `make` suele estar preinstalado, pero si no lo está, puedes instalarlo con tu gestor de paquetes:
+    
+      ```bash
+      sudo apt-get install build-essential
+      ```
+
+    - **En macOS**: Instala Xcode Command Line Tools, que incluye `make`:
+
+      ```bash
+      xcode-select --install
+      ```
+
+    - **En Windows**: Puedes instalar `make` utilizando MinGW o Cygwin.
 
 ### Pasos
 
